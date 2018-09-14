@@ -42,9 +42,9 @@ public class SentenceFinder
 	}
 	else
 	{
-	    min = Integer.parseInt(arg[1]);
-	    max = Integer.parseInt(arg[2]);
-	    for (int i = 3; i < arg.length; i++)
+	    min = Integer.parseInt(arg[0]);
+	    max = Integer.parseInt(arg[1]);
+	    for (int i = 2; i < arg.length; i++)
 	    {
 		text = arg[i] + ' ';
 	    }
