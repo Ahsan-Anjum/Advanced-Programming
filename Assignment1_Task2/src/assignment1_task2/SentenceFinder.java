@@ -52,6 +52,11 @@ public class SentenceFinder
 	}
     }
 
+    private static boolean isSentenceDelimiter(char c)
+    {
+	return (c == '.' || c == '!' || c == '?');
+    }
+
     private static String[] parse()
     {
 	// replace EOL characters with blanks
@@ -61,12 +66,11 @@ public class SentenceFinder
 	for (int i = 0; i < text.length(); i++)
 	{
 	    int sentenceEndIndex = i;
-	    char currChar;
 
 	    //  keep going until a period, question mark,
 	    //  or exclamation mark is encountered
 	    while (sentenceEndIndex < text.length()
-		   && !((currChar = text.charAt(sentenceEndIndex)) == '.' || currChar == '!' || currChar == '?'))
+		   && !isSentenceDelimiter(text.charAt(sentenceEndIndex)))
 	    {
 		sentenceEndIndex++;
 	    }
@@ -79,9 +83,14 @@ public class SentenceFinder
 	    }
 
 	    //  the substring text.substring(i, sentenceEndIndex) contains a complete sentence,
+	    //	only if its delimited by a '.', '!', or '?', hence the if-condition;
 	    //  and may have a blank behind it
-	    //  so, trim() is called on it to remove that blank. Then add it to ArrayList of sentences
-	    sentences.add(text.substring(i, sentenceEndIndex).trim());
+	    //  so, trim() is called on it to remove that blank. Then added it to ArrayList of sentences
+	    String candidateSentence = text.substring(i, sentenceEndIndex).trim();
+	    if (isSentenceDelimiter(candidateSentence.charAt(candidateSentence.length() - 1)))
+	    {
+		sentences.add(candidateSentence);
+	    }
 
 	    //  set i to the first position after the end of sentence,
 	    //  so that after increment by for-loop, i starts after the whitespace encountered
