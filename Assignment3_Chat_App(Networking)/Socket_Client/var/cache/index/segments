@@ -1,0 +1,22 @@
+#Wed Nov 28 03:27:21 PKT 2018
+s5=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/jce.jar\!/
+s4=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/jsse.jar\!/
+s3=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/sunrsasign.jar\!/
+s2=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/rt.jar\!/
+s19=file\:/home/code-sage/NetBeansProjects/Socket_Client/src/
+s1=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/resources.jar\!/
+s18=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/sunjce_provider.jar\!/
+s17=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/jfxrt.jar\!/
+s16=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/sunpkcs11.jar\!/
+s15=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/jaccess.jar\!/
+s14=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/sunec.jar\!/
+s13=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/cldrdata.jar\!/
+s12=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/zipfs.jar\!/
+s11=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/nashorn.jar\!/
+s10=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/localedata.jar\!/
+s21=jar\:file\:/usr/local/java/jdk1.8.0_181/src.zip\!/
+s20=file\:/home/code-sage/NetBeansProjects/Socket_Client/test/
+s9=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/ext/dnsns.jar\!/
+s8=file\:/usr/local/java/jdk1.8.0_181/jre/classes/
+s7=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/jfr.jar\!/
+s6=jar\:file\:/usr/local/java/jdk1.8.0_181/jre/lib/charsets.jar\!/

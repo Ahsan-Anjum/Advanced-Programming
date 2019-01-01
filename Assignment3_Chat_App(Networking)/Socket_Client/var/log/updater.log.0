@@ -1,0 +1,18 @@
+Nov 27, 2018 11:59:37 PM org.netbeans.updater.UpdaterFrame <clinit>
+INFO: Entering updater.jar .................................................................... 
+Nov 27, 2018 11:59:38 PM org.netbeans.updater.ModuleUpdater unpack
+INFO: 780: Unpacking com-revivius-nb-darcula.nbm
+Nov 27, 2018 11:59:38 PM org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file /home/code-sage/NetBeansProjects/Socket_Client/update/download/com-revivius-nb-darcula.nbm:netbeans/config/Modules/com-revivius-nb-darcula.xml to /home/code-sage/NetBeansProjects/Socket_Client/config/Modules/com-revivius-nb-darcula.xml
+Nov 27, 2018 11:59:38 PM org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file /home/code-sage/NetBeansProjects/Socket_Client/update/download/com-revivius-nb-darcula.nbm:netbeans/modules/com-revivius-nb-darcula.jar to /home/code-sage/NetBeansProjects/Socket_Client/modules/com-revivius-nb-darcula.jar
+Nov 27, 2018 11:59:38 PM org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file /home/code-sage/NetBeansProjects/Socket_Client/update/download/com-revivius-nb-darcula.nbm:netbeans/modules/ext/com.revivius.nb-darcula/com-bulenkov/darcula.jar to /home/code-sage/NetBeansProjects/Socket_Client/modules/ext/com.revivius.nb-darcula/com-bulenkov/darcula.jar
+Nov 27, 2018 11:59:38 PM org.netbeans.updater.ModuleUpdater unpack
+INFO: File /home/code-sage/NetBeansProjects/Socket_Client/update/download/com-revivius-nb-darcula.nbm deleted.
+Nov 27, 2018 11:59:38 PM org.netbeans.updater.XMLUtil write
+INFO: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@78899c4
+Nov 27, 2018 11:59:38 PM org.netbeans.updater.UpdateTracking$Module write
+INFO: File /home/code-sage/NetBeansProjects/Socket_Client/update_tracking/com-revivius-nb-darcula.xml modified.
+Nov 27, 2018 11:59:39 PM org.netbeans.updater.ModuleUpdater deleteAdditionalInfo
+INFO: File /home/code-sage/NetBeansProjects/Socket_Client/update/download/additional_information.xml deleted.

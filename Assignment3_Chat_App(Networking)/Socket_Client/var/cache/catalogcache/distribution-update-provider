@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--<meta name="apple-mobile-web-app-capable" content="yes" />-->
+<title>Authentication Required for Wireless Access</title>
+<link href="ruckus_user.css" rel="stylesheet" type="text/css" />
+<link media="only screen and (max-width: 420px)" rel="stylesheet" href="ruckus_user_mobile.css" type="text/css" title="no title"/>
+
+
+
+<script language="Javascript" type="text/javascript">
+//<![CDATA[
+var onloads = new Array();
+function bodyOnLoad() {
+    for ( var i = 0 ; i < onloads.length ; i++ ) {
+        onloads[i]();
+    }
+}
+
+
+//]]>
+</script>
+</head>
+
+<body onload="bodyOnLoad()"><table id="wrapper"><tr><td valign="middle">
+<div id="dialog">
+<div id="dialog_header">
+    <a id="logo" ><img src="/uploaded/guest_logo" alt="" title="" width="138px" height="40px" /></a>
+    <h1 id="titledes" style="width:220px;word-break:break-all;white-space:normal;">Authentication Required for Wireless Access</h1>
+    
+</div><!-- /dialog_header -->
+<div id="dialog_content">
+
+
+<script language="JavaScript">
+function login()
+{
+    if(""==document.tF0.username.value)
+    {
+        alert("Your user name / password is required.");
+        return false;
+    }
+    if(""==document.tF0.password.value)
+    {
+        alert("Your user name / password is required.");
+        return false;
+    }
+    return true;
+}
+</script>
+
+<!-- <p> Please log in, using your user name and password. </p> -->
+<form name="tF0" id="tF0" method="post" action="https://scg.ruckuswireless.com:9998/forms/user_login">
+<input type="hidden" name="origurl" value="http%3a%2f%2fupdates%2enetbeans%2eorg%2fnetbeans%2fupdates%2f8%2e2%2fuc%2ffinal%2fdistribution%2fcatalog%2exml%2egz%3funique%3dNB%5fCND%5fEXTIDE%5fGFMOD%5fGROOVY%5fJAVA%5fMOB%5fPHP%5fWEBCOMMON%5fWEBEE08b945373%2d8c4e%2d4960%2d9835%2d9b11dbefd51e%5f701b673c%2d92f3%2d443d%2d84b6%2d4bf6e32574f7">
+    <table id="userpass" class="separator">
+        <tr class="gap"><th>&nbsp;</th><td>&nbsp;</td></tr>
+            <script type="text/javascript">
+            //<![CDATA[
+                this.onloads.push(function() {
+                    document.getElementById('username').focus();
+                });
+            //]]>
+            </script>
+            <tr><th>User Name</th><td><input class="login_input" type="text" name="username" id="username" size="127" maxLength="127" AUTOCOMPLETE=OFF /></td></tr>
+            <tr><th>Password</th><td><input class="login_input" type="password" name="password" id="password" size="63" maxLength="63" AUTOCOMPLETE=OFF /></td></tr>
+            <tr><th></th><td align="right">
+                <input type="submit" name="ok" value="Log In" onClick="return login();" />
+                <!-- or <a href="javascript:history.back();">&lt; Back</a> -->
+            </td></tr>
+            <!--<tr class="gap"><th>&nbsp;</th><td>&nbsp;</td></tr>-->
+        
+    </table>
+</form>
+
+    </div><!-- /dialog_content -->
+    <div id="dialog_footer"></div>
+
+<p id="powered"><a href="http://www.ruckuswireless.com/">Powered by Ruckus Wireless</a></p>
+
+</div><!-- /dialog -->
+</td></tr></table>
+</body>
+</html>
