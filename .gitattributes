@@ -1,2 +1,2 @@
-*.* linguist-documentation
+*.java linguist-documentation
 *.java linguist-language=Java
