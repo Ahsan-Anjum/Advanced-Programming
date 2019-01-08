@@ -1,2 +1,17 @@
-*.Roff linguist-language=text
-*.Roff linguist-documentation
+*.1 linguist-language=text
+*.1 linguist-documentation
+
+*.2 linguist-language=text
+*.2 linguist-documentation
+
+*.4 linguist-language=text
+*.4 linguist-documentation
+
+*.5 linguist-language=text
+*.5 linguist-documentation
+
+*.7 linguist-language=text
+*.7 linguist-documentation
+
+*.8 linguist-language=text
+*.8 linguist-documentation
